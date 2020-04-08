@@ -1,16 +1,16 @@
 {
-  "id": "franz-custom-website",
-  "name": "Custom Website",
-  "version": "1.0.2",
-  "description": "Add a custom website to Franz",
+  "id": "recipe-grindr",
+  "name": "Grindr",
+  "version": "1.0.0",
+  "description": "Adds Grindr to Franz",
   "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "author": "Will Thain <William.Thain.2019@live.rhul.ac.uk>",
   "license": "MIT",
-  "repository": "https://github.com/meetfranz/recipe-custom-website",
+  "repository": "https://github.com/GreggsOfficial/recipe-grindr",
   "config": {
+    "serviceURL": "https://web.grindr.com",
     "hasNotificationSound": false,
     "hasIndirectMessages": false,
-    "hasCustomUrl": true,
     "autoHibernate": true
   }
 }
